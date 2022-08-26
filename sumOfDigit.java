@@ -7,7 +7,7 @@ public class Main
 		System.out.println(SumDigit(n));
 	}
 	public static int SumDigit(int n){
-	    if(n%10==0)return 0;
+	    if(n==0)return 0;
 	    return SumDigit(n/10)+n%10;
 	}
 }
